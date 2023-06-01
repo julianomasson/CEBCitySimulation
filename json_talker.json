@@ -1,0 +1,39 @@
+{
+  "id": "818181481",
+  "queue_size": 10,
+  "frequency": 2,
+  "sensors":
+  [
+    {
+      "class_name": "TemperatureSensor",
+      "id": "518488118515",
+      "parameters":
+        {
+          "min_temp": 20,
+          "max_temp": 30
+        },
+      "errors":
+      [
+        {
+          "class_name": "RandomUniformDeviation",
+          "parameters":
+            {
+              "min_value": 0,
+              "max_value": 2,
+              "error_rate": 0.4
+            }
+        }
+      ]
+    }
+  ],
+  "errors":
+  [
+    {
+      "class_name": "CriticalNetwork",
+      "parameters":
+        {
+          "error_rate": 0.2
+        }
+    }
+  ]
+}

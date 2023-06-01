@@ -1,0 +1,14 @@
+{
+  "id": "555848481",
+  "queue_size": 10,
+  "errors":
+  [
+    {
+      "class_name": "CriticalNetwork",
+      "parameters":
+        {
+          "error_rate": 0.2
+        }
+    }
+  ]
+}
