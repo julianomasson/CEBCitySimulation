@@ -1,5 +1,5 @@
 import rclpy
-from py_pubsub.Sensor import *
+from py_pubsub.sensor import *
 from rclpy.node import Node
 from std_msgs.msg import String
 
