@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  talker:
+    image: ceb
+    command: ros2 run py_pubsub talker --ros-args -p json_path:=./json_talker.json
+  listener:
+    image: ceb
+    command: ros2 run py_pubsub listener --ros-args -p json_path:=./json_listener.json
+    depends_on:
+      - talker
