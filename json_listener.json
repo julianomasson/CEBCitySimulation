@@ -1,5 +1,12 @@
 {
-  "id": "555848481",
+  "MQTT": {
+    "broker": "broker.emqx.io",
+    "port": 1883,
+    "topic": "testtopic/CEB",
+    "client_id": "818181481",
+    "username": "",
+    "password": ""
+  },
   "queue_size": 10,
   "errors":
   [
